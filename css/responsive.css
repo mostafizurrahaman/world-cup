@@ -2,126 +2,114 @@
       Tablet view 
 **********************************/
 
-@media only screen and (min-width:578px) and (max-width:982px) {
-   html{
+@media only screen and (min-width: 578px) and (max-width: 982px) {
+   html {
       font-size: 40%;
    }
-   /*for ellipsis paragraph or text*/ 
-   #header p{
-      height:2.5rem;
+   /*for ellipsis paragraph or text*/
+   #header p {
+      height: 2.5rem;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
-    }
-    
-   /*content section */ 
-   #all-content .container{
+   }
+
+   /*content section */
+   #all-content .container {
       flex-direction: column;
       padding: 4rem 5rem;
-      height: 0 ;
+      height: 0;
       row-gap: 5rem;
       height: auto;
-      
    }
-  
-   .content_controller{
+
+   .content_controller {
       background: none;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(3, 1fr);
       padding: 0;
       height: 0;
       margin-bottom: 5rem;
+   }
 
+   .contents {
+      grid-template-columns: repeat(2, 1fr);
    }
-   .content_controller .controller{
-     border: 1px solid #000;
-   }
-   .contents{
-      grid-template-columns: repeat(2,1fr);
-   }
-   .content-details .people-reaction{
+   .content-details .people-reaction {
       width: 50%;
    }
-   .view-all-btn{
-   display: inline-block;
-   
+   .view-all-btn {
+      display: inline-block;
    }
-   .footer-menu{
+   .footer-menu {
       flex-wrap: wrap;
       width: 80%;
       justify-content: center;
       margin: 0 auto;
-    }
+   }
 }
-
 
 /********************************
       mobile view 
 **********************************/
-@media only screen and (max-width:578px) {
-      html{
+@media only screen and (max-width: 578px) {
+   html {
       font-size: 38%;
    }
-   .header-container{
+   .header-container {
       flex-direction: column;
       row-gap: 2rem;
-      
-   }  
-   .half-width{
-      width:75%;
+   }
+   .half-width {
+      width: 75%;
       text-align: center;
    }
-   .header-container .header-banner img{
+   .header-container .header-banner img {
       width: 60%;
-      
-   }  
+   }
 
-   /*for ellipsis paragraph or text*/ 
-   #header p{
-      height:2.5rem;
+   /*for ellipsis paragraph or text*/
+   #header p {
+      height: 2.5rem;
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
-    }
+   }
 
    /*=============================
          content section 
-   =============================*/ 
-   #all-content .container{
+   =============================*/
+   #all-content .container {
       flex-direction: column;
       padding: 0rem 5rem;
-      height: 0 ;
+      height: 0;
       row-gap: 5rem;
       height: auto;
-      
    }
-   .content_controller{
+   .content_controller {
       background: none;
       row-gap: 2rem;
    }
-   .content_controller .controller{
-      border: 1px solid #000;
-   }
-   .content_controller .btn-1{
-     width:20rem;
+
+   .content_controller .btn-1 {
+      width: 20rem;
    }
 
-   .content_controller .btn-3{
-     width:16rem;
+   .content_controller .btn-3 {
+      width: 16rem;
    }
-   .contents{
-      grid-template-columns: repeat(1,1fr);
+   .contents {
+      grid-template-columns: repeat(1, 1fr);
    }
-   .content-details .people-reaction{
+   .content-details .people-reaction {
       width: 50%;
    }
 
    /*=======================
    footer section styles
    ==========================*/
-   .footer-menu{
-     flex-direction: column;
-     justify-content: center;
-     text-align: center;
-    }
-   
+   .footer-menu {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+   }
 }

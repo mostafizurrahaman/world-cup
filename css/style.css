@@ -151,6 +151,7 @@ p{
    -moz-border-radius: 1rem;
    -ms-border-radius: 1rem;
    -o-border-radius: 1rem;
+   min-width: 21rem;
 }
 .content_controller .controller{
   color: #000;
@@ -173,6 +174,7 @@ p{
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
+  box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.374);
 }
 .content_controller .controller:hover{
    background: #DD0000;
